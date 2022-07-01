@@ -30,7 +30,10 @@ article{
 article h1{
     margin-left: 51px;
 }
-
+footer{
+    float: left;
+    display: flex;
+}
 article p{
     font-size: 18px;
     margin-top: 5px;
@@ -44,20 +47,33 @@ article img{
     margin-left: 53px;
 }
 
-div{
-    margin-left: 225px;
-    margin-right: 235px;
-}
+
 
 section{
     background-color: darkgrey;
     margin-top: 60px;
+    float: left;
+}
+section *{
+    width: 100%;
+    clear: both;
+}
+
+section h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+section p{
+    font-size: 15px;
 }
 
 section img{
-    width: 33%;
+    width: 200px;
 
 }
+
+
 
 
 
